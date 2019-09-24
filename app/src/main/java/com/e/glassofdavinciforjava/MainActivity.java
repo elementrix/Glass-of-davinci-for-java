@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_size_config).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mCustomView.onSizeChanged(600,300,400,200);
+                mCustomView.onSizeChanged(400,300,0,0);
             }
         });
     }
